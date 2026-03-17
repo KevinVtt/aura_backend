@@ -31,3 +31,24 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# ── Configuración sensible ────────────────────────
+src/main/resources/application.properties
+src/main/resources/application-prod.properties
+
+# ── Spring Boot ───────────────────────────────────
+*.jar
+*.war
+*.ear
+
+# ── Sistema operativo ─────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────
+*.log
+logs/
+
+# ── Tests ─────────────────────────────────────────
+/test-output/
