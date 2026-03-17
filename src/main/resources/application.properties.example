@@ -1,0 +1,8 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/aura_db
+spring.datasource.username=TU_USUARIO
+spring.datasource.password=TU_PASSWORD
+jwt.secret=TU_CLAVE_SECRETA_MINIMO_32_CARACTERES
+jwt.expiration=86400000
+fastapi.url=http://localhost:8000
+spring.servlet.multipart.max-file-size=10MB
+spring.servlet.multipart.max-request-size=10MB
