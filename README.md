@@ -151,7 +151,6 @@ se crean desde el panel de administración del frontend.
 | Método | Ruta           | Descripción        |
 |--------|----------------|--------------------|
 | POST   | /auth/login    | Iniciar sesión     |
-| POST   | /auth/register | Registrar usuario  |
 
 ### Usuarios (solo ADMIN)
 | Método | Ruta                    | Descripción           |
